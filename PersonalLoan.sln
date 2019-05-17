@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalLoan", "PersonalLoan\PersonalLoan.csproj", "{F9ECF479-42BC-468C-A98B-AC92C6EC2234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "PersonalLoan\UI.csproj", "{F9ECF479-42BC-468C-A98B-AC92C6EC2234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAOLibraries", "DAOLibraries\DAOLibraries.csproj", "{7E5F596C-F441-4EA0-980F-5BA65C6C17A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAOLibraries\DAL.csproj", "{7E5F596C-F441-4EA0-980F-5BA65C6C17A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerLibraries", "ControllerLibraries\ControllerLibraries.csproj", "{1A0D19EC-A44D-48DF-A66A-97DBB37811CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "ControllerLibraries\Controller.csproj", "{1A0D19EC-A44D-48DF-A66A-97DBB37811CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelClasses", "ModelClasses\ModelClasses.csproj", "{B23828EF-8716-40B4-9A01-0BA6A348FEF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "ModelClasses\Model.csproj", "{B23828EF-8716-40B4-9A01-0BA6A348FEF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
