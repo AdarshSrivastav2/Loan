@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "PersonalLoan\UI.csproj", "{F9ECF479-42BC-468C-A98B-AC92C6EC2234}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "i", "PersonalLoan\i.csproj", "{F9ECF479-42BC-468C-A98B-AC92C6EC2234}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAOLibraries\DAL.csproj", "{7E5F596C-F441-4EA0-980F-5BA65C6C17A0}"
 EndProject
