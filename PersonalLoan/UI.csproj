@@ -70,18 +70,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Modules\loan.Master.cs">
-      <DependentUpon>loan.Master</DependentUpon>
+    <Compile Include="Modules\LoanMaster.Master.cs">
+      <DependentUpon>LoanMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Modules\loan.Master.designer.cs">
-      <DependentUpon>loan.Master</DependentUpon>
+    <Compile Include="Modules\LoanMaster.Master.designer.cs">
+      <DependentUpon>LoanMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Modules\LoanMaster.Master" />
     <None Include="packages.config" />
-    <Content Include="Modules\loan.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -89,7 +89,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ControllerLibraries\BAL.csproj">
+      <Project>{1a0d19ec-a44d-48df-a66a-97dbb37811cb}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelClasses\Model.csproj">
+      <Project>{b23828ef-8716-40b4-9a01-0ba6a348fef7}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

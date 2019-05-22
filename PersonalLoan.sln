@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "PersonalLoan\UI.cspro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAOLibraries\DAL.csproj", "{7E5F596C-F441-4EA0-980F-5BA65C6C17A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "ControllerLibraries\Controller.csproj", "{1A0D19EC-A44D-48DF-A66A-97DBB37811CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "ControllerLibraries\BAL.csproj", "{1A0D19EC-A44D-48DF-A66A-97DBB37811CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "ModelClasses\Model.csproj", "{B23828EF-8716-40B4-9A01-0BA6A348FEF7}"
 EndProject
