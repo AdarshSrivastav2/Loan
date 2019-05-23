@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Modules\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +77,13 @@
     </Compile>
     <Compile Include="Modules\LoanMaster.Master.designer.cs">
       <DependentUpon>LoanMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -90,8 +98,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ControllerLibraries\BAL.csproj">
-      <Project>{1a0d19ec-a44d-48df-a66a-97dbb37811cb}</Project>
+    <ProjectReference Include="..\BAL\BAL.csproj">
+      <Project>{c5d47e5c-124b-4487-8fe1-6edd351377a3}</Project>
       <Name>BAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModelClasses\Model.csproj">
